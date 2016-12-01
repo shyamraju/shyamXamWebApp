@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>IPhone Midterm</title>
-    <!-- jquery for maximum compatibility -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="rc4.js"></script>
-    <style type="text/css" media="all">
-        /*css reset */
-        html,body,div,span,h1,h2,h3,h4,h5,h6,p,code,small,strike,strong,sub,sup,b,u,i{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0;}
-        article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
-        body{line-height:1; font:normal 0.9em/1em "Helvetica Neue", Helvetica, Arial, sans-serif;}
-        ol,ul{list-style:none;}
-        strong{font-weight:700;}
-        .studentId{height: 40px; width: 100px;font-size: 2em;text-align: center;}
-        .idButton{display: inline-block;
+  <meta charset="utf-8">
+  <title>IPhone Midterm</title>
+  <!-- jquery for maximum compatibility -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="rc4.js"></script>
+  <style type="text/css" media="all">
+  /*css reset */
+  html,body,div,span,h1,h2,h3,h4,h5,h6,p,code,small,strike,strong,sub,sup,b,u,i{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0;}
+  article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+  body{line-height:1; font:normal 0.9em/1em "Helvetica Neue", Helvetica, Arial, sans-serif;}
+  ol,ul{list-style:none;}
+  strong{font-weight:700;}
+  .studentId{height: 40px; width: 100px;font-size: 2em;text-align: center;}
+  .idButton{display: inline-block;
     position: relative;
     margin: 10px;
     padding: 0 20px;
@@ -37,7 +37,7 @@
     -o-transition: all 0.15s ease;
     -ms-transition: all 0.15s ease;
     transition: all 0.15s ease;
-        color: #3e5706;
+    color: #3e5706;
 
     background: #a5cd4e; /* Old browsers */
     background: -moz-linear-gradient(top,  #a5cd4e 0%, #6b8f1a 100%); /* FF3.6+ */
@@ -45,22 +45,33 @@
     background: -webkit-linear-gradient(top,  #a5cd4e 0%,#6b8f1a 100%); /* Chrome10+,Safari5.1+ */
     background: -o-linear-gradient(top,  #a5cd4e 0%,#6b8f1a 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top,  #a5cd4e 0%,#6b8f1a 100%); /* IE10+ */
-    background: linear-gradient(top,  #a5cd4e 0%,#6b8f1a 100%); /* W3C */}
-        #frame{width:60%;border:1px solid #ccc;background:#fff;padding:10px;margin:3px; position: relative; left: 20%;}
-        h1{font:normal bold 2em/1.8em "Helvetica Neue", Helvetica, Arial, sans-serif;text-align:left;border-bottom:1px solid #999;padding:0;width:auto}
-        h2{font:italic bold 1.3em/1.2em "Helvetica Neue", Helvetica, Arial, sans-serif;padding:0;text-align:center;margin:20px 0;}
-        p.pager{margin:5px 0 5px; font:bold 1em/1em "Helvetica Neue", Helvetica, Arial, sans-serif;color:#999;}
-        img.question-image{display:block;max-width:300px;margin:10px auto;border:1px solid #ccc;width:100%;height:auto;}
-        #choice-block{display:block;list-style:none;margin:0;padding:0;}
-        #submitbutton{background:#5a6b8c;}
-        #submitbutton:hover{background:#7b8da6;}
-        #explanation{margin:0 auto;padding:20px;width:75%;}
-        .choice-box{display:block;text-align:center;margin:8px auto;padding:10px 0;border:1px solid #666;cursor:pointer;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+  background: linear-gradient(top,  #a5cd4e 0%,#6b8f1a 100%); /* W3C */}
+  #frame{width:60%;border:1px solid #ccc;background:#fff;padding:10px;margin:3px; position: relative; left: 20%;}
+  h1{font:normal bold 2em/1.8em "Helvetica Neue", Helvetica, Arial, sans-serif;text-align:left;border-bottom:1px solid #999;padding:0;width:auto}
+  h2{font:italic bold 1.3em/1.2em "Helvetica Neue", Helvetica, Arial, sans-serif;padding:0;text-align:center;margin:20px 0;}
+  #footer{width:60%; color:grey; font-size: 1em;position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 20%;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center; }
+    #footer a{color:grey; font-size: 1em;}
+    p.pager{margin:5px 0 5px; font:bold 1em/1em "Helvetica Neue", Helvetica, Arial, sans-serif;color:#999;}
+    img.question-image{display:block;max-width:300px;margin:10px auto;border:1px solid #ccc;width:100%;height:auto;}
+    #choice-block{display:block;list-style:none;margin:0;padding:0;}
+    #submitbutton{background:#5a6b8c;}
+    #submitbutton:hover{background:#7b8da6;}
+    #explanation{margin:0 auto;padding:20px;width:75%;}
+    .choice-box{display:block;text-align:center;margin:8px auto;padding:10px 0;border:1px solid #666;cursor:pointer;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
     </style>
-</head>
-<body>
+  </head>
+  <body>
 
     <div align="center" id="frame" role="content"></div>
-<script src="new.js"></script>
-</body>
-</html>
+    <script src="new.js"></script>
+    <div align="center" id="footer">&copy; Copyright 2016 <a href="www.shyam.host">www.shyam.host</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Created by: <a href="www.shyam.website">Shyam Sunder Raju, Anantha Kumar</a></div>
+  </body>
+
+
+  </html>
