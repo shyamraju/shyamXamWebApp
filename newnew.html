@@ -4,66 +4,17 @@
 <script>
 var quiz = [
         {
-            "question"      :   "Q1. Given the following code :",
-            "image"         :   "q8.png",
+            "question"      :   "Q1. To execute an action through a buttton, we use ?",
+            "image"         :   "",
             "choices"       :   [
-                                    "myVar = 18",
-									"myVar = boolean",
-									"myVar = String(16)",
-									"myVar = 16"
+                                    "@IBOutlet",
+									"@IBAction"
                                 ],
-            "correct"       :   "myVar = String(16)",
+            "correct"       :   "@IBAction",
             "explanation"   :   "",
         },
         {
-            "question"      :   "Q2. Given the following code :",
-            "image"         :   "q9.png",
-            "choices"       :   [
-                                    "myNumber = 4/2",
-                                    "myNumber = 70.2",
-                                    "myNumber = \"7\""
-                                ],
-            "correct"       :   "myNumber = 4/2",
-            "explanation"   :   "",
-        },
-        {
-            "question"      :   "Q3. Write the result of the following code : " ,
-            "image"         :   "q10.png",
-            "choices"       :   [
-                                    "10",
-                                    "20",
-                                    "50",
-                                    "80"
-                                ],
-            "correct"       :   "20",
-            "explanation"   :   "",
-        },
-        {
-            "question"      :   "Q4. Write the result of the following code:" ,
-            "image"         :   "q11.png",
-            "choices"       :   [
-                                    "10",
-                                    "30",
-                                    "60",
-                                    "120"
-                                ],
-            "correct"       :   "60",
-            "explanation"   :   "",
-        },
-        {
-            "question"      :   "Q5. Write the result of the following code: " ,
-            "image"         :   "q12.png",
-            "choices"       :   [
-                                    "1",
-                                    "2",
-                                    "3",
-                                    "4"
-                                ],
-            "correct"       :   "3",
-            "explanation"   :   "",
-        },
-        {
-            "question"      :   "Q6. Write down the final result of the following code print(myVar). " ,
+            "question"      :   "Q2. Write down the final result of the following code print(myVar).",
             "image"         :   "q13.png",
             "choices"       :   [
                                     "[\"JonLuckyNumbers\": 5, \"ClaireLuckyNumbers\": 3, \"BillLuckyNumbers\": 3]",
@@ -74,53 +25,40 @@ var quiz = [
             "explanation"   :   "",
         },
         {
-            "question"      :   "Q7. Write the result of the following code : " ,
-            "image"         :   "q14.png",
+            "question"      :   "Q3. To convert a variable X from Int to String we use? " ,
+            "image"         :   "",
             "choices"       :   [
-                                    "3",
-                                    "4",
-                                    "5",
-                                    "6"
+                                    "Int(X)",
+                                    "X.toString()",
+                                    "String(X)",
+                                    "X.String()"
                                 ],
-            "correct"       :   "4",
+            "correct"       :   "String(X)",
             "explanation"   :   "",
         },
         {
-            "question"      :   "Q8. What the result of the following code" ,
-            "image"         :   "q15.png",
+            "question"      :   "Q4. The Simulator can simulate all iOS devices?" ,
+            "image"         :   "",
             "choices"       :   [
-                                    "0",
-                                    "2",
-                                    "4",
-                                    "8"
+                                    "True",
+                                    "False"
                                 ],
-            "correct"       :   "4",
+            "correct"       :   "True",
             "explanation"   :   "",
         },
         {
-            "question"      :   "Q9. How to add “vertical center” constraint?",
-            "image"         :   "q1.png",
+            "question"      :   "Q5. How to change a keyboard's \"Return\" button to \"Done\" button ?" ,
+            "image"         :   "",
             "choices"       :   [
-                                    "Control drag/drop from the label to its container and select \"Center Vertically in Container\"",
-                                    "Add constraint in ViewController.swift file",
-                                    "None of above"
+                                    "Select Keybord > Go to Attributes Inspector > Select Return Key > Set to Done",
+                                    "Select Text Field > Go to Attributes Inspector > Select Keyboard Type > Set to Done",
+                                    "Select Text Field > Go to Attributes Inspector > Select Return Key > Set to Done",
+                                    "Select Label > Go to Attributes Inspector > Select Keyboard Type > Set to Done"
                                 ],
-            "correct"       :   "Control drag/drop from the label to its container and select \"Center Vertically in Container\"",
+            "correct"       :   "Select Text Field > Go to Attributes Inspector > Select Return Key > Set to Done",
             "explanation"   :   "",
         },
-        {
-            "question"      :   "Q10. Please refer to the same image, how to add constraint to specify 150 pixels width for the label?",
-            "image"         :   "q1.png",
-            "choices"       :   [
-                                    "Select the label, click Pin icon under Interface Builder and specify 150 pixels for the width.",
-									"Control drag/drop from label to the ViewController.swift file and select outlet option, specify 80 pixels in outlet.",
-									"None of above"
-                                ],
-            "correct"       :   "Select the label, click Pin icon under Interface Builder and specify 150 pixels for the width.",
-            "explanation"   :   "",
-        },
-        
-    
+
     ];
 
 var quiz1=JSON.stringify(quiz);

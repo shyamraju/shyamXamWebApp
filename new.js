@@ -1,5 +1,5 @@
 
-    var quiztitle = "iPhone Midterm - 2";
+    var quiztitle = "iPhone(A1) - Final";
 
 
  function openInNewTab(url) {
@@ -24,11 +24,11 @@ if (gmail=="no"||gmail=="No") {
 	var newnewnew="abc";
 
 
-  var quiz1="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"
+  var quiz1="U2FsdGVkX1/5ZtRoH64sSlzhQjPERl+f9glS9+1wGSSAG56d2ayjlbwBFl/HgE3mAoe04+nSKsde8tPmBKp+nt/xVKQBI+Qa2areDY8teSqtJEoHj9F804+VbpdQx/dCiCIUYye15oHjS0BKMYqxiLrDKwpzr76frIi6O/ypXWc0zsxAkx2Dxcs1fXqifjlP0ZpZMZu6MKN+/MWQ9KwmRX96Qt0c0KKxsMwtoj2eVjrOVnJ5gj+rYfz9iyEXjj4/AwfNDzSsl71XzAP+o4dpAlCOxBljAPpcIF+wrkQiKwGI+tAmYLhVI2i2dHU4M1qrMEej8Vi9ubGYfA5TR5Zukbb6dbxCBMuOhnLshOKn1C/eU/EQJ3o5jV9NxrI3wGq23I/nlQM/3d0gwZaOccQiidozdNYW2w/O4b6QzNhG5qwWm7qftyENTHT6mp97PQCOWz5ftf92BWU0XRVmJwm2s27dmSJMsvZDiyG0LwuD123xTSNID8EfDV19DdZ5+kLkbml0VM4mTvRnK2Csku5IIiivJhVwcIA8cNgIC88WSPNd/k3wYXvEIxtKSAyDVKjTauAggBlPwE3K80G9w9KEkEFztavldZke8S08VZJTSgwVJ2W4jnGO5gpaHrRIihvYHvdGL4syFmaXxQbFJ/OqM/pT64dR3ohe+hecXFmHDjzxwM/y/RSIy9vXvcojiFbGyT4zff9qpVdkaRLCbVJlwf06MyqC8xVPSdfHVMoS4B1JMYn2obCmZYttHkl9OqnZoSp9sNK/7N8P0S5eHwlFiPgM198tT1mwLADVuCKf1zT1m7z4blgtsFd7jJClHCosTkZtZSxUbvxo8MlodBp27froHnbOffWR4BPrBSMjMipOCTOlQbtsDH0m1m/36o6VWCSUU4fW6vmoeoPtaABieAWHa9DBd+9WanRahvXyxGEUWXZnn75vS4QNOjrLSJjmtPZ2ygF8tD10+xPw5CMMocAaWDVd+1VomQns7i2dM4ZceLIhfXx57ImvXFKAQDj3KFUteS+oq8X3mMzu67GFZcDi7rD22x/GA/zCRupK7obsvtJneywUg6gAhJZxWhB0zqxRotQq4CkIw5R4G+sKH/nkMzRLKF5Mh92zvroZWrBEVGBeyR+TpPoSKzUTxeqo85C+pKZXZVUTIa7d4SxdADHIY+3WDzv6NO3Pm4t7tFguvIp3skMq9hdXALSh/lzk4t0zustp43bvT0tJ4HCdRDOU30kB5I+cVVu67kuzxUczlAquuKRZ4y43FwGXpmX+okw+ZPfgeDfMOkmwaERIRJLKIDfz3Jj8sKpv7ifvvHrQz3hKm6SPBVdkeNER2BTQeDm91FF5wf+SdhVPkwF8NjK7sFXxU7N3+xtgk8zL9QtV4afLzZkZ7P656BF7Aw//00MrFI51IG84IsC4XZXuNHUEcjnQWG+vNb7w9S+CnnlnCItks7e4Sh+NDdgTnTvCab2Qvku7twNSE45KJ541U5FiZvIVt5bkYkfj9qJjd8EtMkpoqT738x8HzgDFDLIcl2tcF1WX7dUqkYSex/Fb9eHtBh90r9e8GEKGdBto42QSjRU6XlAvqGmVX3UtyuxBLnwukaj5Mad2ST0274d2wmcRqVzIv0o/sMQXsHggmRhPlXog0XBB/b7PccdmICPq+vrCg/yUQ0BS7vWBEhUBgK5VqnWj+3tef4/cZ4rxbBmiEfiOZWmTo+jM/vHRbTEyUD6y4EfJuzxPTK9MBheXy5ehmjlwb+20jPpzTHkvIinx6akKgGv1gl4qQqdoXYWmX2RlQCI0buwAu/P0nXIFtVo6JRcsa1Mur9735Pz/2FSw2eQyvak6I1ARKtNVpluH2Y5UKu4VFMV7wFQlrk0wzUSTeG5dq8T8Y9tCoov0Q0YJmVdvoFThxc55OEuXtMnGD7SdFysWDScElBuR5F29eda3r8EhFhQjN08nO2mzE8TtNY/kPyrsycXJUGKE3zMhfvP4LgQ="
 
 var textElem2P = CryptoJS.RC4.decrypt(quiz1, "abc");
 var textElem2 = textElem2P.toString(CryptoJS.enc.Utf8);
-//console.log(textElem2);
+console.log(textElem2);
 var quiz = JSON.parse(textElem2);
 //console.log(quiz);
 
@@ -222,7 +222,7 @@ function checkCookie(user1) {
 
 
 
-            $form = ('<form method="post" name="myemailform" action="form-to-email.php"><input type="text" id="name1" name="name"><input type="text" name="score" id="score1"><div align="center"><input id="subbmit" type="submit" value="Send Score"></div></form> ');
+             $form = ('<form method="post" name="myemailform" action="form-to-email.php"><input type="text" id="name1" name="name"><button id="finalnew">Send Score</button><input type="text" name="score" id="score1"><div align="center"><input id="subbmit" type="submit" value="SEND!!!"></div></form> ');
 if(sourceview == 0){
 $('#frame').append($form);
 sourceview++
@@ -233,7 +233,14 @@ sourceview++
 
             document.getElementById('name1').style.display="none"
             document.getElementById('score1').style.display="none"
+			document.getElementById('subbmit').style.display="none"
+			$( "#finalnew" ).click(function() {
+  var sendscore1=prompt("Please Call Examiner to Submit Score")
+  if(sendscore1=="s" || sendscore1=="S"){
+			document.getElementById('subbmit').style.display="block"
+			}
 
+});
 
 
 
